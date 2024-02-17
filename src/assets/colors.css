@@ -1,3 +1,6 @@
 :root {
-    
+    --dark-grey: rgb(10, 10, 10);
+    --med-grey: rgb(20, 20, 20);
+    --grey: rgb(31, 31, 31);
+    --light-grey: rgb(41, 41, 41);
 }

@@ -1,5 +1,28 @@
-.navbar {
+@import '../assets/colors.css';
+
+.nav {
     height: 3.5rem;
-    background-color: black;
+    position: sticky;
+    top: 0;
+    background-color: var(--dark-grey);
     color: white;
+    z-index: 99;
+}
+
+.nav-button-wrapper {
+    display: flex;
+    margin: auto;
+    height: 3.5rem;
+    width: 95%;
+    max-width: 800px;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }

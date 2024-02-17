@@ -1,18 +1,22 @@
+@import './assets/colors.css';
+
 .App {
   text-align: center;
   background-image: url("./assets/headerbg.jpg");
-  background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 
-.App-header {
-  /* background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; */
+.page-section {
+  min-height: 50vh;
+}
+
+.section-1 {
+  
+  background-color: var(--grey);
+}
+
+.section-2 {
+  background-color: var(--med-grey);
 }

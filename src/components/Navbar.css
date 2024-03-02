@@ -4,7 +4,7 @@
     height: 3.5rem;
     position: sticky;
     top: 0;
-    background-color: var(--dark-grey);
+    background-color: white;
     color: white;
     z-index: 99;
 }
@@ -23,6 +23,22 @@
     justify-content: center;
     width: 25%;
     text-decoration: none;
-    color: white;
     cursor: pointer;
 }
+
+a {
+    color: var(--dark-grey);
+    text-decoration: none;
+    background-image: linear-gradient(var(--dark-grey), var(--dark-grey));
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+
+    a:hover,
+    a:focus,
+    a:active {
+        background-size: 100% 0.1em;
+    }

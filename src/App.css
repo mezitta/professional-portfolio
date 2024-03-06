@@ -5,17 +5,31 @@
   overflow: hidden;
 }
 
+.img-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
 .potrait-photo {
   width: 85%;
   animation: chromaticMove 4500ms ease infinite,light-pulse ease 200ms  infinite;
   border: 4px solid white;
   box-shadow: 10px 5px 5px rgba(39, 39, 39, .5);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+  overflow: visible;
+}
+
+.title-col,
+.img-col {
+  padding-top: 20px;
 }
 
 body{
   background:#000;
   color:yellow;
-  text-align:center;
+  text-align:left;
   font-family:"Trebuchet MS";
   text-transform:uppercase;
   padding-top:2em;
@@ -37,28 +51,91 @@ body{
   padding-right: 2rem !important;
 }
 
-h1{
+.title-col h1{
     font-size: 4em !important;
     text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
     animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;
+    font-weight: bold;
 }
 
 .title-col h2 {
   color: white !important;
   text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
   animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;
+  font-weight: bold;
+}
+
+.title-col {
+  text-align: left;
 }
 
 .sub-header {
   color: white;
-  font-weight: bold;
+  text-align: left;
   animation: pulse ease 200ms  infinite;
 }
 
-small{
-  display:block;
-  text-transform:initial;
-  font-size:24px;
+.tech-social {
+  display: flex;
+  width: 100%;
+}
+
+.card-row {
+  display: flex;
+  flex-grow: .8;
+  justify-content: end;
+}
+
+.skill-card {
+  display: flex;
+  justify-content: end;
+  height: fit-content;
+  padding: 0 0 0 1rem;
+  width: calc(100%/2);
+  max-width: 200px;
+}
+
+.additional-info {
+  padding-top: 2rem;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.email-txt {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-left: 1.5rem;
+  color: yellow;
+  text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
+}
+
+.email-now {
+  color: white;
+}
+
+.tech-header {
+  text-align: left;
+  font-size: 1.65rem;
+  color: white;
+  text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
+}
+
+.frameworks,
+.languages,
+.tools {
+  display: flex;
+}
+
+.tech-list {
+  padding-left: 0.5rem;
+}
+
+li {
+  display: inline-flex;
+  padding-left: 0.5rem;
 }
 
 @keyframes gradientMove { 

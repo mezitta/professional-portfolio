@@ -12,7 +12,25 @@ const App = () => {
                 src={require("./assets/pfp.jpg")}
                 alt="background"
               />
+              
+              <div className="card-row">
+                <div className="skill-card">
+                  <img
+                    class="potrait-photo"
+                    src={require("./assets/pfp.jpg")}
+                    alt="background"
+                  />
+                </div>
+                <div className="skill-card">
+                  <img
+                    class="potrait-photo"
+                    src={require("./assets/pfp.jpg")}
+                    alt="background"
+                  />
+                </div>
+              </div>
             </div>
+            
           </div>
           <div className="col-lg-6 title-col">
             <h2>Limited Time Offer</h2>
@@ -63,22 +81,7 @@ const App = () => {
                 </div>
               </div>
 
-              <div className="card-row">
-                <div className="skill-card">
-                  <img
-                    class="potrait-photo"
-                    src={require("./assets/pfp.jpg")}
-                    alt="background"
-                  />
-                </div>
-                <div className="skill-card">
-                  <img
-                    class="potrait-photo"
-                    src={require("./assets/pfp.jpg")}
-                    alt="background"
-                  />
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

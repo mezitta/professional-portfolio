@@ -157,6 +157,10 @@ li {
     display: block;
   }
 
+  .info-wrapper {
+    text-align: center;
+  }
+
   .email-txt {
     margin-left: 0;
   }

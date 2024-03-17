@@ -7,8 +7,6 @@
 
 .img-col {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   padding-bottom: 20px;
 }
 
@@ -31,6 +29,7 @@
   height: fit-content;
   width: calc(100%/2);
   max-width: 200px;
+  margin-right: 1.5rem;
 }
 
 .potrait-photo {
@@ -94,7 +93,6 @@ body{
 .sub-header {
   color: white;
   text-align: left;
-  animation: pulse ease 200ms  infinite;
 }
 
 .tech-social {
@@ -140,9 +138,17 @@ body{
   padding-left: 0.5rem;
 }
 
+.skills p {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
 li {
   display: inline-flex;
   padding-left: 0.5rem;
+  color: white;
 }
 
 @media screen and (max-width: 1250px) {
@@ -151,33 +157,63 @@ li {
     display: block;
   }
 
-  /* .card-row,
-  .skill-card {
-    justify-content: start;
-  }
-
-  .skill-card {
-    padding: 0;
-  } */
-
   .email-txt {
     margin-left: 0;
   }
 }
 
-@media  screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .tech-social {
     display: flex;
+    margin-top: 1.5rem;
   }
-  
-  /* .card-row,
-  .skill-card {
-    justify-content: end;
+
+  .additional-info-row {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .body-container {
+    padding: 0.5rem 0 2.5rem 0;
   }
 
   .email-txt {
-    font-size: 2.5rem;
-  } */
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-wrapper {
+    padding: 0;
+  }
+
+  .skill-card:nth-child(2)
+  {
+    margin-right: 0;
+  }
+
+  .title-col h1{
+    font-size: 1.5rem !important;
+  }
+  
+  .frameworks,
+  .languages,
+  .tools {
+    display: block;
+  }
+
+  .tech-list {
+    padding-left: 0;
+  }
+  
+  .info-wrapper {
+    text-align: left;
+  }
+  
+  .email-txt {
+    font-size: 1.15rem;
+  }
 }
 
 @keyframes gradientMove { 

@@ -2,6 +2,8 @@ import "./Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
+import Resume from "../assets/MichaelZitta2024.pdf";
+
 const Home = () => {
   return (
     <div className="container-fluid body-container">
@@ -81,7 +83,6 @@ const Home = () => {
                   </ul>
                 </div>
               </div>
-
               
             </div>
           </div>
@@ -93,6 +94,18 @@ const Home = () => {
                 <h3 className="email-txt email-now">email now</h3>
                 <h3 className="email-txt">michaelezitta@gmail.com</h3>
             </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col">
+          <a class="resume-link" rel="noreferrer" href={Resume} target="_blank">
+                <img
+                  class="resume-img"
+                  src={require("../assets/seemycv.png")}
+                  alt="background"
+                />
+              </a>
           </div>
         </div>
       </div>

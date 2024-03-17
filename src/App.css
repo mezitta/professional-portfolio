@@ -153,6 +153,20 @@ li {
   color: white;
 }
 
+.resume-link {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  animation: chromaticMove 4500ms ease infinite,light-pulse ease 200ms  infinite;
+  padding-bottom: 0.5rem;
+}
+
+.resume-img {
+  width: 10%;
+  max-width: 300px;
+  max-height: 40dvh;
+}
+
 @media screen and (max-width: 1250px) {
   .info-wrapper,
   .tech-social {
@@ -165,6 +179,15 @@ li {
 
   .email-txt {
     margin-left: 0;
+  }
+
+  .resume-link {
+    justify-content: center;
+    padding-top: 1rem;
+  }
+
+  .resume-img {
+    width: 20%;
   }
 }
 
@@ -219,6 +242,10 @@ li {
   
   .email-txt {
     font-size: 1.15rem;
+  }
+
+  .resume-img {
+    width: 40%;
   }
 }
 

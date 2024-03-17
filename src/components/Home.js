@@ -15,20 +15,20 @@ const Home = () => {
               />
               
               <div className="card-row">
-                <div className="skill-card">
+                <a className="skill-card" href="https://www.linkedin.com/in/michael-zitta/" target="blank">
                   <img
-                    class="potrait-photo"
-                    src={require("../assets/pfp.jpg")}
+                    class="card-photo"
+                    src={require("../assets/linkedcard.jpg")}
                     alt="background"
                   />
-                </div>
-                <div className="skill-card">
+                </a>
+                <a className="skill-card" href="https://github.com/mezitta" target="blank">
                   <img
-                    class="potrait-photo"
-                    src={require("../assets/pfp.jpg")}
+                    class="card-photo"
+                    src={require("../assets/githubcard.jpg")}
                     alt="background"
                   />
-                </div>
+                </a>
               </div>
             </div>
             

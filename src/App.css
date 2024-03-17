@@ -32,7 +32,8 @@
   margin-right: 1.5rem;
 }
 
-.potrait-photo {
+.potrait-photo,
+.card-photo {
   width: 100%;
   height: auto;
   animation: chromaticMove 4500ms ease infinite,light-pulse ease 200ms  infinite;
@@ -40,6 +41,7 @@
   box-shadow: 10px 5px 5px rgba(39, 39, 39, .5);
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
   overflow: visible;
+  border-radius: .25rem;
 }
 
 .title-col,

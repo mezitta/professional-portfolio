@@ -8,6 +8,14 @@
     animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;
 }
 
+.pnf-wrapper {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
 @keyframes gradientMove { 
     0%{background-size: 100% 4px}
     50%{background-size: 100% 2px}

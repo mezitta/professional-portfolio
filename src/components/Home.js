@@ -79,7 +79,7 @@ const Home = () => {
                     <li>Visual Studio, </li>
                     <li>Dapper, </li>
                     <li>SSMS, </li>
-                    <li>ISS </li>
+                    <li>IIS </li>
                   </ul>
                 </div>
               </div>
